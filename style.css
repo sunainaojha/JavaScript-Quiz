@@ -39,7 +39,7 @@ a {
 
 .intro button:hover {
     cursor: pointer;
-    transform: scale(1.75);
+    transform: scale(1.075);
     transition: .5s;
 }
 
