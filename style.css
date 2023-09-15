@@ -1,0 +1,45 @@
+*, body {
+    padding: 0;
+    margin: 0;
+    font-size: 110%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px 30px;
+    color: white;
+    background-color: rgb(226, 147, 0);
+}
+
+a {
+    color: white;
+}
+
+.intro {
+    text-align: center;
+    margin-top: 25vh;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro h1, .intro p, .intro h3 {
+    margin-bottom: 10px;
+}
+
+.intro button {
+    border: 2px solid rgb(153, 99, 0);
+    background-color: rgb(226, 147, 0);
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.intro button:hover {
+    cursor: pointer;
+    transform: scale(1.75);
+    transition: .5s;
+}
+
